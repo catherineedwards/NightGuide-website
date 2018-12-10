@@ -4,7 +4,7 @@ import "../index.css";
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row bd nav">
+      <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="#about">
