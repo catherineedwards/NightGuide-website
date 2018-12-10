@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "jquery": "^1.9.1",
     "popper.js": "^1.14.6",
     "react": "^16.6.3",
