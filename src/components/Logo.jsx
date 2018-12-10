@@ -5,7 +5,11 @@ class Logo extends Component {
   render() {
     return (
       <div className="logoContainer">
-        <img className="logo" src={process.env.PUBLIC_URL + "logosvg.svg"} />
+        <img
+          className="logo"
+          alt="Logo for the Night Guide team, which has an owl flying under planets in the sky"
+          src={process.env.PUBLIC_URL + "logosvg.svg"}
+        />
       </div>
     );
   }

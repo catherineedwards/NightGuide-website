@@ -15,9 +15,9 @@ class Team extends Component {
           <br />
           Cathy: Leo, Tiger
           <br />
-          Kelly:
+          Kelly: Libra, Monkey
           <br />
-          Ollie:
+          Ollie: Aquarius, Dog
           <br />
         </p>
       </div>

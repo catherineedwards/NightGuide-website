@@ -4,22 +4,30 @@ import "../index.css";
 class Nav extends Component {
   render() {
     return (
-      <div className="nav">
-        <ul>
-          <li>
-            <a href="#about">About</a>
+      <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row bd nav">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="#about">
+              About <span className="sr-only">(current)</span>
+            </a>
           </li>
-          <li>
-            <a href="#app">Get our app</a>
+          <li className="nav-item active">
+            <a className="nav-link" href="#features">
+              Features <span className="sr-only">(current)</span>
+            </a>
           </li>
-          <li>
-            <a href="#contribute">Contribute</a>
+          <li className="nav-item active">
+            <a className="nav-link" href="#current">
+              Contribute <span className="sr-only">(current)</span>
+            </a>
           </li>
-          <li>
-            <a href="#team">The team</a>
+          <li className="nav-item active">
+            <a className="nav-link" href="#team">
+              Team <span className="sr-only">(current)</span>
+            </a>
           </li>
         </ul>
-      </div>
+      </nav>
     );
   }
 }
