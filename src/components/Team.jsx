@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../index.css";
+import Emoji from "react-emoji-render";
 
 class Team extends Component {
   render() {
@@ -8,23 +9,27 @@ class Team extends Component {
         <h2 id="team">The team</h2>
         <div>
           <img
-            className="TazPhoto"
+            className="avatar"
             alt="Taz"
             src={process.env.PUBLIC_URL + "taz.png"}
           />
-          <p>Taz: Aquarius, Rooster</p>
+          <p>
+            Taz: Aquarius <Emoji text="♒" />, Rooster <Emoji text="🐓" />
+          </p>
         </div>
         <div>
           <img
-            className="OlliePhoto"
+            className="avatar"
             alt="Ollie"
             src={process.env.PUBLIC_URL + "ollie.png"}
           />
-          <p>Ollie: Aquarius, Dog</p>
+          <p>
+            Ollie: Aquarius <Emoji text="♒" />, Dog{" "}
+          </p>
         </div>
         <div>
           <img
-            className="JoanPhoto"
+            className="avatar"
             alt="Joan"
             src={process.env.PUBLIC_URL + "joan.png"}
           />
@@ -32,7 +37,7 @@ class Team extends Component {
         </div>
         <div>
           <img
-            className="SungmiPhoto"
+            className="avatar"
             alt="Sungmi"
             src={process.env.PUBLIC_URL + "sungmi.png"}
           />
@@ -40,7 +45,7 @@ class Team extends Component {
         </div>
         <div>
           <img
-            className="KellyPhoto"
+            className="avatar"
             alt="Kelly"
             src={process.env.PUBLIC_URL + "kelly.png"}
           />
@@ -48,7 +53,7 @@ class Team extends Component {
         </div>
         <div>
           <img
-            className="CathyPhoto"
+            className="avatar"
             alt="Cathy"
             src={process.env.PUBLIC_URL + "cathy.jpg"}
           />
