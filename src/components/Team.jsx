@@ -6,20 +6,54 @@ class Team extends Component {
     return (
       <div>
         <h2 id="team">The team</h2>
-        <p>
-          Taz: Aquarius, Rooster
-          <br />
-          Joan: Sagittarius, Horse
-          <br />
-          Sungmi: Capricorn, Tiger
-          <br />
-          Cathy: Leo, Tiger
-          <br />
-          Kelly: Libra, Monkey
-          <br />
-          Ollie: Aquarius, Dog
-          <br />
-        </p>
+        <div>
+          <img
+            className="TazPhoto"
+            alt="Taz"
+            src={process.env.PUBLIC_URL + "taz.png"}
+          />
+          <p>Taz: Aquarius, Rooster</p>
+        </div>
+        <div>
+          <img
+            className="OlliePhoto"
+            alt="Ollie"
+            src={process.env.PUBLIC_URL + "ollie.png"}
+          />
+          <p>Ollie: Aquarius, Dog</p>
+        </div>
+        <div>
+          <img
+            className="JoanPhoto"
+            alt="Joan"
+            src={process.env.PUBLIC_URL + "joan.png"}
+          />
+          <p>Joan: Sagittarius, Horse</p>
+        </div>
+        <div>
+          <img
+            className="SungmiPhoto"
+            alt="Sungmi"
+            src={process.env.PUBLIC_URL + "sungmi.png"}
+          />
+          <p>Sungmi: Capricorn, Tiger</p>
+        </div>
+        <div>
+          <img
+            className="KellyPhoto"
+            alt="Kelly"
+            src={process.env.PUBLIC_URL + "kelly.png"}
+          />
+          <p>Kelly: Libra, Monkey</p>
+        </div>
+        <div>
+          <img
+            className="CathyPhoto"
+            alt="Cathy"
+            src={process.env.PUBLIC_URL + "cathy.jpg"}
+          />
+          <p>Cathy: Leo, Tiger</p>
+        </div>
       </div>
     );
   }
