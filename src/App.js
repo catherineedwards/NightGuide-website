@@ -7,6 +7,7 @@ import About from "./components/About";
 import Features from "./components/Features";
 import Contribute from "./components/Contribute";
 import Team from "./components/Team";
+import Inspired from "./components/Inspired";
 import Footer from "./components/Footer";
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
           <Features />
           <Contribute />
           <Team />
+          <Inspired />
           <Footer />
         </div>
       </div>

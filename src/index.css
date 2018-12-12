@@ -6,14 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #121f5c;
-}
-
-a:hover {
-  text-decoration: none;
-  border: 3px;
-  border-style: solid;
-  border-color: #ff91d3;
+  color: #0e1b58;
 }
 
 .container-fluid {
@@ -23,11 +16,15 @@ a:hover {
 
 .container {
   margin: 3em;
-  border: 5px #000000;
 }
 
 .container p {
   color: #0e1b58;
+}
+
+.contribute img {
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 .rounded {
@@ -93,9 +90,12 @@ p {
 }
 
 .teamPhoto {
-  padding-top: 20px;
   margin: -20px;
-  height: 200px;
+}
+
+.teamPhoto img {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 th,
@@ -109,4 +109,21 @@ td {
 
 .footer img {
   width: 200px;
+}
+
+.contribute a {
+  color: #95a9ff;
+}
+
+.inspired h2 {
+  color: #0e1b58;
+}
+
+.inspired p {
+  color: #0e1b58;
+}
+
+.inspired img {
+  border-radius: 20px;
+  width: 150px;
 }
