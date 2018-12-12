@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <h2 id="about">About</h2>
+        <h2>About</h2>
         <p>
           Nightguide is a multifaceted astronomical application built for
           curious users who are interested in our wonderful universe.

@@ -10,7 +10,6 @@ class Features extends Component {
           <tbody>
             <tr>
               <th scope="row">
-                {" "}
                 <img
                   className="img-fluid"
                   alt="Constellation of stars in the sky"
@@ -25,7 +24,6 @@ class Features extends Component {
             </tr>
             <tr>
               <th scope="row">
-                {" "}
                 <img
                   className="img-fluid"
                   alt="Planets in the sky"
@@ -40,7 +38,6 @@ class Features extends Component {
             </tr>
             <tr>
               <th scope="row">
-                {" "}
                 <img
                   className="img-fluid"
                   alt="Lookout spot to stargaze"
@@ -52,7 +49,6 @@ class Features extends Component {
             </tr>
             <tr>
               <th scope="row">
-                {" "}
                 <img
                   className="img-fluid"
                   alt="Guide to the weather forecast"

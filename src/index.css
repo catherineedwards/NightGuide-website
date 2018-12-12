@@ -14,14 +14,6 @@ a {
   animation: slide 30s linear infinite;
 }
 
-.container {
-  margin: 3em;
-}
-
-.container p {
-  color: #0e1b58;
-}
-
 .contribute img {
   padding-right: 20px;
   margin: 0 auto;
@@ -53,12 +45,14 @@ h4 {
 
 p {
   text-align: center;
-  max-width: 750px;
   color: #ff91d3;
-  margin: 0 auto;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 30px;
+}
+
+.features > table > tbody > tr > td {
+  color: #ff91d3;
 }
 
 @keyframes slide {
@@ -136,4 +130,13 @@ td {
 .inspired img {
   border-radius: 20px;
   width: 150px;
+}
+
+.team > table > tr > th,
+td {
+  color: #0e1b58;
+}
+
+.team > table > tbody > tr > th > img {
+  max-width: 100px;
 }
