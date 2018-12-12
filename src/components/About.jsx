@@ -7,8 +7,12 @@ class About extends Component {
       <div className="about">
         <h2 id="about">About</h2>
         <p>
-          A team of six students from Enspiral Dev Academy pushing their limits
-          to build a React Native app for iOS devices.
+          Nightguide is a multifaceted astronomical application built for
+          curious users who are interested in our wonderful universe.
+        </p>
+        <p>
+          Built by a team of six students from Enspiral Dev Academy, pushing
+          their limits to build a React Native app for iOS devices.
         </p>
       </div>
     );
