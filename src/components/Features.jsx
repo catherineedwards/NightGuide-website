@@ -6,7 +6,7 @@ class Features extends Component {
     return (
       <div className="features">
         <h2 id="features">Features</h2>
-        <table class="table">
+        <table className="table">
           <tbody>
             <tr>
               <th scope="row">
