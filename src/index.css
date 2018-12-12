@@ -102,11 +102,6 @@ p {
   padding-bottom: 30px;
 }
 
-th,
-td {
-  color: #ff91d3;
-}
-
 .icon {
   border-radius: 20px;
 }
@@ -117,6 +112,10 @@ td {
 
 .contribute a {
   color: #95a9ff;
+}
+
+.contribute img {
+  border-radius: 20px;
 }
 
 .inspired h2 {
@@ -138,5 +137,9 @@ td {
 }
 
 .team > table > tbody > tr > th > img {
-  max-width: 100px;
+  width: 131px;
+}
+
+.team > table > tbody > tr > th {
+  width: 15%;
 }
