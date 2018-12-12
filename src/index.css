@@ -10,6 +10,18 @@
     animation: slide 30s linear infinite;
   }
 
+  .container {
+    margin: 3em;
+  }
+
+  .container p {
+    color: #0e1b58;
+  }
+
+  .rounded {
+    height: 100px;
+  }
+
   h1 {
     font-family: "Exo", sans-serif;
     text-align: center;
@@ -83,7 +95,7 @@
 
   .teamPhoto {
     margin: -20px;
-    height: 400px;
+    height: 200px;
   }
 
   th,
@@ -94,9 +106,26 @@
   .icon {
     border-radius: 10px;
   }
+
+  .footer p {
+    color: #000000;
+    position: inherit;
+  }
+
+  .footer img {
+    width: 300px;
+  }
+
+  .footerleft {
+    margin-left: -20px;
+  }
+
+  .footerright {
+    margin-right: -20px;
+  }
 }
 
-@media (min-width: 750px) {
+/* @media (min-width: 750px) {
   html,
   body {
     margin: 0;
@@ -289,5 +318,4 @@
 
   .icon {
     border-radius: 10px;
-  }
-}
+  } */
