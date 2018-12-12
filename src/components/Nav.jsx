@@ -26,6 +26,11 @@ class Nav extends Component {
               Team <span className="sr-only">(current)</span>
             </a>
           </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="#inspired">
+              Inspired? <span className="sr-only">(current)</span>
+            </a>
+          </li>
         </ul>
       </nav>
     );

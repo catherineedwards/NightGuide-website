@@ -12,7 +12,7 @@ class Features extends Component {
               <th scope="row">
                 {" "}
                 <img
-                  className="rounded"
+                  className="img-fluid"
                   alt="Constellation of stars in the sky"
                   src={process.env.PUBLIC_URL + "constellation.png"}
                 />
@@ -27,7 +27,7 @@ class Features extends Component {
               <th scope="row">
                 {" "}
                 <img
-                  className="rounded"
+                  className="img-fluid"
                   alt="Planets in the sky"
                   src={process.env.PUBLIC_URL + "planet.png"}
                 />
@@ -42,7 +42,7 @@ class Features extends Component {
               <th scope="row">
                 {" "}
                 <img
-                  className="rounded"
+                  className="img-fluid"
                   alt="Lookout spot to stargaze"
                   src={process.env.PUBLIC_URL + "lookout.png"}
                 />
@@ -54,7 +54,7 @@ class Features extends Component {
               <th scope="row">
                 {" "}
                 <img
-                  className="rounded"
+                  className="img-fluid"
                   alt="Guide to the weather forecast"
                   src={process.env.PUBLIC_URL + "weather.png"}
                 />

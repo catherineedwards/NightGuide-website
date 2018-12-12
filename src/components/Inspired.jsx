@@ -23,6 +23,7 @@ class Inspired extends Component {
         <p>
           <a href="https://devacademy.co.nz/">
             <img
+              className="img-fluid"
               alt="Enspiral Dev Academy Logo"
               src={process.env.PUBLIC_URL + "eda.png"}
             />

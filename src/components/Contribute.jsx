@@ -40,35 +40,35 @@ class Contribute extends Component {
         <p>
           <a href="https://facebook.github.io/react-native">
             <img
-              className="rounded"
+              className="img-fluid"
               alt="React Native logo"
               src={process.env.PUBLIC_URL + "react-native.png"}
             />
           </a>
           <a href="https://expo.io/">
             <img
-              className="rounded"
+              className="img-fluid"
               alt="Expo logo"
               src={process.env.PUBLIC_URL + "expo.jpg"}
             />
           </a>
           <a href="https://www.github.com/">
             <img
-              className="rounded"
+              className="img-fluid"
               alt="Github logo"
               src={process.env.PUBLIC_URL + "github.png"}
             />
           </a>
           <a href="https://getbootstrap.com/">
             <img
-              className="rounded"
+              className="img-fluid"
               alt="Bootstrap logo"
               src={process.env.PUBLIC_URL + "bootstrap.png"}
             />
           </a>
           <a href="https://reactjs.org/">
             <img
-              className="rounded"
+              className="img-fluid"
               alt="React JS logo"
               src={process.env.PUBLIC_URL + "react.png"}
             />

@@ -6,8 +6,8 @@ class Team extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>
-          <h2 id="team">The team</h2>
+        <div className="team">
+          <h2>The team</h2>
           <div className="teamPhoto">
             <img
               className="img-fluid"
