@@ -18,100 +18,64 @@ class Team extends Component {
 
           <div className="container">
             <div className="row">
-              <div className="col">
-                {" "}
+              <div className="col-sm-4">
                 <img
                   className="rounded"
                   alt="Taz"
                   src={process.env.PUBLIC_URL + "taz.png"}
                 />
-                <p className="profile">
-                  Taz
-                  <br />
-                  Aquarius <Emoji text="♒" />
-                  <br />
-                  Rooster <Emoji text="🐓" />
-                </p>
+                Taz Aquarius <Emoji text="♒" />
+                Rooster <Emoji text="🐓" />
               </div>
-
-              <div className="col">
-                {" "}
+              <div className="col-sm-4">
                 <img
                   className="rounded"
                   alt="Ollie"
                   src={process.env.PUBLIC_URL + "ollie.png"}
                 />
-                <p className="profile">
-                  Ollie
-                  <br />
-                  Aquarius <Emoji text="♒" />
-                  <br />
-                  Dog <Emoji text="🐕" />
-                </p>
+                Ollie Aquarius <Emoji text="♒" />
+                Dog <Emoji text="🐕" />
               </div>
-
-              <div className="col">
+              <div className="col-sm-4">
                 <img
                   className="rounded"
                   alt="Joan"
                   src={process.env.PUBLIC_URL + "joan.png"}
                 />
-                <p className="profile">
-                  Joan
-                  <br />
-                  Sagittarius <Emoji text="♐" />
-                  <br />
-                  Horse <Emoji text="🐎" />
-                </p>
+                Joan Sagittarius <Emoji text="♐" />
+                Horse <Emoji text="🐎" />
               </div>
             </div>
             <div className="row">
-              <div className="col">
+              <div className="col-sm-4">
                 <img
                   className="rounded"
                   alt="Sungmi"
                   src={process.env.PUBLIC_URL + "sungmi.png"}
                 />
-                <p className="profile">
-                  Sungmi
-                  <br />
-                  Capricorn <Emoji text="♑" />
-                  <br />
-                  Tiger <Emoji text="🐅" />
-                </p>
+                Sungmi Capricorn <Emoji text="♑" />
+                Tiger <Emoji text="🐅" />
               </div>
-              <div className="col">
-                {" "}
+              <div className="col-sm-4">
                 <img
                   className="rounded"
                   alt="Kelly"
                   src={process.env.PUBLIC_URL + "kelly.png"}
                 />
-                <p className="profile">
-                  Kelly
-                  <br />
-                  Libra <Emoji text="♎" />
-                  <br />
-                  Monkey <Emoji text="🐒" />
-                  <br />
-                </p>
+                Kelly Libra <Emoji text="♎" />
+                Monkey <Emoji text="🐒" />
               </div>
-              <div className="col">
-                <p>
-                  {" "}
-                  <img
-                    className="rounded"
-                    alt="Cathy"
-                    src={process.env.PUBLIC_URL + "cathy.jpg"}
-                  />{" "}
-                </p>
-                <p className="profile">
-                  Cathy
-                  <br />
-                  Leo <Emoji text="♌" />
-                  <br />
-                  Tiger <Emoji text="🐅" />
-                </p>
+              <div className="col-sm-4">
+                <img
+                  className="rounded"
+                  alt="Cathy"
+                  src={process.env.PUBLIC_URL + "cathy.jpg"}
+                />
+                Cathy
+                <br />
+                Leo <Emoji text="♌" />
+                <br />
+                Tiger <Emoji text="🐅" />
               </div>
             </div>
           </div>

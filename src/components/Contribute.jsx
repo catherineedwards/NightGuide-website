@@ -11,6 +11,13 @@ class Contribute extends Component {
             Check out our repository on GitHub
           </a>
         </p>
+        <p>
+          <img
+            className="rounded"
+            alt="Github logo"
+            src={process.env.PUBLIC_URL + "github.png"}
+          />
+        </p>
       </div>
     );
   }
